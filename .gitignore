@@ -1,0 +1,6 @@
+.DS_Store
+*.exe
+*.key
+*.pem
+*.p12
+*.pfx
