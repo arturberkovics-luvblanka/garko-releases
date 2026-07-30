@@ -4,5 +4,19 @@
     <title>GARKO stabil frissítések</title>
     <description>Aláírt GARKO Windows-kiadások</description>
     <language>hu</language>
+    <item>
+      <title>GARKO 0.0.1</title>
+      <description>Windows-javítások: API-kulcs mentése, gyorsabb GLS-indítás, felvillanó konzolablakok megszüntetése, egységes szövegméret és simább beállítás-görgetés.</description>
+      <sparkle:version>0.0.1</sparkle:version>
+      <sparkle:shortVersionString>0.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.0.1</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.0.1/GARKO-Setup-0.0.1.exe"
+                 length="30017155"
+                 type="application/octet-stream"
+                 sparkle:os="windows-x64"
+                 sparkle:edSignature="bCzzXfz5kqE9UUG2acf67ouiG+YN8vmJdUNflkCykJ9inUPaClGXQ1YMTAdZhNWQghbJ0wBgMSA1gT0bAhzKDg=="
+                 sparkle:installerArguments="/SILENT /SP- /NORESTART" />
+    </item>
   </channel>
 </rss>
