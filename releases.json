@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "releases": [
+    {
+      "version": "0.0.1",
+      "installer_url": "https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.0.1/GARKO-Setup-0.0.1.exe",
+      "installer_size": 30017155,
+      "installer_sha256": "02087352556c4945d43bcabf876eb8087bee8acc237fffe5f68c2bfc2281631c",
+      "ed25519_signature": "bCzzXfz5kqE9UUG2acf67ouiG+YN8vmJdUNflkCykJ9inUPaClGXQ1YMTAdZhNWQghbJ0wBgMSA1gT0bAhzKDg=="
+    },
+    {
+      "version": "0.0.2",
+      "installer_url": "https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.0.2/GARKO-Setup-0.0.2.exe",
+      "installer_size": 30021208,
+      "installer_sha256": "53222c55840135711a14f82e6b8aa5e049cac45cd9837ca304b1cf47fd93d8ce",
+      "ed25519_signature": "Z6ENzK/VInwTN3av0txVkkx8o9zw5qbVAARS3n6ewmGo4J8AVIbrWWKUUV0KGEwMUrD7Zv3QD2aisIe/QGouDg=="
+    },
+    {
+      "version": "0.0.3",
+      "installer_url": "https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.0.3/GARKO-Setup-0.0.3.exe",
+      "installer_size": 30555814,
+      "installer_sha256": "1df764404957dd5238caf53e65b7e955e66d8d0b9372af85b0409f681b25e25f",
+      "ed25519_signature": "0usS7iwCbQTKlfkOkwwYJVMgncC1/m7mH02c3rCxVK9NTSST/PBR5wM69WVsgJMUs7xKsXK3FdJ+7xRkpXdNBA=="
+    },
+    {
+      "version": "0.0.4",
+      "installer_url": "https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.0.4/GARKO-Setup-0.0.4.exe",
+      "installer_size": 30564145,
+      "installer_sha256": "2b78a54bf4a33dd0e7db616b9faeac030f78cb0e32a54c0da411a358637acfab",
+      "ed25519_signature": "kjJApjlL1X8JllMjWz9KSdp5gg3ipj+zqaFRM2xXIo5R69JPqzELDwRK6T2RnvWVEVZyiUpOT1gPxjFlybVVDg=="
+    }
+  ]
+}

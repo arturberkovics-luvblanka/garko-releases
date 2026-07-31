@@ -5,17 +5,17 @@
     <description>Aláírt GARKO Windows-kiadások</description>
     <language>hu</language>
     <item>
-      <title>GARKO 0.0.3</title>
-      <description>Natív Windows DPI-skálázás, főmenüből induló Test és Éles API-kulcs mentés, valamint stabil nagy naplónézet.</description>
-      <sparkle:version>0.0.3</sparkle:version>
-      <sparkle:shortVersionString>0.0.3</sparkle:shortVersionString>
+      <title>GARKO 0.0.4</title>
+      <description>Magas DPI-s Windows elrendezés javítása és biztonságos GitHub Downgrade választó.</description>
+      <sparkle:version>0.0.4</sparkle:version>
+      <sparkle:shortVersionString>0.0.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.0.3</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.0.3/GARKO-Setup-0.0.3.exe"
-                 length="30555814"
+      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.0.4</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.0.4/GARKO-Setup-0.0.4.exe"
+                 length="30564145"
                  type="application/octet-stream"
                  sparkle:os="windows-x64"
-                 sparkle:edSignature="0usS7iwCbQTKlfkOkwwYJVMgncC1/m7mH02c3rCxVK9NTSST/PBR5wM69WVsgJMUs7xKsXK3FdJ+7xRkpXdNBA=="
+                 sparkle:edSignature="kjJApjlL1X8JllMjWz9KSdp5gg3ipj+zqaFRM2xXIo5R69JPqzELDwRK6T2RnvWVEVZyiUpOT1gPxjFlybVVDg=="
                  sparkle:installerArguments="/SILENT /SP- /NORESTART" />
     </item>
   </channel>
