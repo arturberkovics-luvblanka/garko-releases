@@ -5,17 +5,19 @@
     <description>Aláírt GARKO Windows-kiadások</description>
     <language>hu</language>
     <item>
-      <title>GARKO 0.0.6</title>
-      <description>Windows DPI- és összegzőfelirat-javítás.</description>
-      <sparkle:version>0.0.6</sparkle:version>
-      <sparkle:shortVersionString>0.0.6</sparkle:shortVersionString>
+      <title>GARKO 0.0.7</title>
+      <description>Biztonsági és megbízhatósági hardening: immutable dokumentumsnapshotok, szigorú parserlimitek, tartós auditjournal, exact Odoo approval/readback, konkurens GUI- és credential-védelem, valamint rollbackes Windows downgrade és reprodukálható kiadási kapuk.
+
+Authenticode-waiver: A v0.0.7 kiadáshoz jelenleg nincs elérhető Authenticode kódtanúsítvány. A kivétel kizárólag a teljes helyi evidence-kapun, a kanonikus Windows builden, az exact installer install/start/shortcut/uninstall acceptance-en és az old-new-old rollbackes downgrade acceptance-en sikeresen átment, itt rögzített commitú és SHA-256-ú installerre vonatkozik.</description>
+      <sparkle:version>0.0.7</sparkle:version>
+      <sparkle:shortVersionString>0.0.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.0.6</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.0.6/GARKO-Setup-0.0.6.exe"
-                 length="30579769"
+      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.0.7</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.0.7/GARKO-Setup-0.0.7.exe"
+                 length="30701111"
                  type="application/octet-stream"
                  sparkle:os="windows-x64"
-                 sparkle:edSignature="sqbB5KgFwENUAk+f1TY27h6LENKWuuVmBDVSuOl3mRi9ErTDwdd38uFnmnhUwkOdc5u5DYMv1LvHrcTv+P9eCw=="
+                 sparkle:edSignature="NIekkNjvVg8qaEhrxqRfqi8lo88v2Lnh7/ADr8WuxcNkK2Ce8ku354HFAhZufyQv4D8HSyEP630KVd2lh2dqDA=="
                  sparkle:installerArguments="/SILENT /SP- /NORESTART" />
     </item>
   </channel>
