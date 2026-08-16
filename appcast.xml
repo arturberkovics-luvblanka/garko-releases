@@ -5,19 +5,19 @@
     <description>Aláírt GARKO Windows-kiadások</description>
     <language>hu</language>
     <item>
-      <title>GARKO 0.1.0</title>
-      <description>Új GARKO alkalmazásikon; javított Windows- és táblázatgörgetés; helyreállított Pegada/Piccadilly beolvasás; átfogó stabilitási és biztonsági javítások.
+      <title>GARKO 0.1.1</title>
+      <description>Gyorsabb, akadásmentesebb Windows fülváltás és simább görgetés.
 
-Authenticode-waiver: A tulajdonos 2026-08-16-án explicit engedélyezte a GARKO v0.1.0 aláíratlan Windows-kiadásának publikálását.</description>
-      <sparkle:version>0.1.0</sparkle:version>
-      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+Authenticode-waiver: A felhasználó kifejezetten engedélyezte a GARKO v0.1.1 aláíratlan Windows-kiadását.</description>
+      <sparkle:version>0.1.1</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.1.0</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.1.0/GARKO-Setup-0.1.0.exe"
-                 length="30767567"
+      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.1.1</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.1.1/GARKO-Setup-0.1.1.exe"
+                 length="30762906"
                  type="application/octet-stream"
                  sparkle:os="windows-x64"
-                 sparkle:edSignature="n0Aixmhqtj3YnQQ3kQl7f1sY74i9QKTvrmopN6QNxojgxUDmk+PCaqhNWm4DZKRwpN1WoslRlbMqy8ob9fJDAQ=="
+                 sparkle:edSignature="LLGj1HVzCiTbvKmbNWdOd0XDgoL7tre/i/xRLS2581Eqcc7Q0SK/Z27e2RyVS/hXNQ4NZ1kDWuAIobdewAuvDg=="
                  sparkle:installerArguments="/SILENT /SP- /NORESTART" />
     </item>
   </channel>
