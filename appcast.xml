@@ -5,19 +5,19 @@
     <description>Aláírt GARKO Windows-kiadások</description>
     <language>hu</language>
     <item>
-      <title>GARKO 0.1.2</title>
-      <description>Windows-megbízhatóság és teljesítményjavítások; egységes hiba- és sikerdobozok; Piccadilly bevételezési XLSX és Pegada EAN támogatás.
+      <title>GARKO 0.1.3</title>
+      <description>A Windows görgetés ugyanazt a gyors, 10 ms-os lecsengő mechanikát használja, mint macOS; a v0.1.2 hibajavításai változatlanul megmaradtak.
 
-Authenticode-waiver: A felhasználó 2026-08-17-én kifejezetten Authenticode-aláírás nélküli v0.1.2 Windows-kiadást kért. A candidate exact GitHub Actions futása, installer smoke-ja, forráscommitja és SHA-256 lenyomata ellenőrzött; az Ed25519 appcast-integritás és a helyi visszaállítható release-backup továbbra is kötelező.</description>
-      <sparkle:version>0.1.2</sparkle:version>
-      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+Authenticode-waiver: A felhasználó kifejezetten Authenticode-aláírás nélküli v0.1.3 Windows-kiadást engedélyezett. Az exact GitHub Actions candidate, installer smoke, forráscommit és SHA-256 ellenőrzött; az Ed25519 appcast-integritás és a verzióazonos helyi release-backup kötelező marad.</description>
+      <sparkle:version>0.1.3</sparkle:version>
+      <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.1.2</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.1.2/GARKO-Setup-0.1.2.exe"
-                 length="30800811"
+      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.1.3</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.1.3/GARKO-Setup-0.1.3.exe"
+                 length="30799807"
                  type="application/octet-stream"
                  sparkle:os="windows-x64"
-                 sparkle:edSignature="GX1qysHlCjBCx9MvJ/ANVLS/ilLIZKljFAw9LmITzgnl/sBUhYoGUSbeKwidW2MIXam3goJkoTYmm0+8L5VvCw=="
+                 sparkle:edSignature="GpdBkx8X6+HNBSKhvR5rfnS/MxkzLTA0namWldc8cuiOmmG9YdGR92W657xtyja0PsFsqma9x/CTsZGkGMSzCw=="
                  sparkle:installerArguments="/SILENT /SP- /NORESTART" />
     </item>
   </channel>
