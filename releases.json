@@ -91,6 +91,13 @@
       "installer_size": 30930368,
       "installer_sha256": "6afe82168c18542fc7bf1d30f75b5ddd5b4199335207dd249604a6885ce8fa69",
       "ed25519_signature": "Xu9CIFdDUky3wJCcd8qmqlNWLuAa7I0ItTVPTMBSp+lPGfOU8sUzgbGh/Ek091ZYS3qfffB6reKP+EAZtQWXCg=="
+    },
+    {
+      "version": "0.1.6",
+      "installer_url": "https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.1.6/GARKO-Setup-0.1.6.exe",
+      "installer_size": 30935658,
+      "installer_sha256": "b2f5b928791a286c629a159ab1599d71895793ac2547dfe34ea5f8743fcd9dbf",
+      "ed25519_signature": "EAOFuAsCveWHErtkmpVTTlNuvuvvN8PZT6bViDI6r00TqW2nwvNA1HHDUNZ057KV/9FpF7t7BgwdgV23/PnRBA=="
     }
   ]
 }
