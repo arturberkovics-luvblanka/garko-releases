@@ -5,19 +5,19 @@
     <description>Aláírt GARKO Windows-kiadások</description>
     <language>hu</language>
     <item>
-      <title>GARKO 0.1.7</title>
-      <description>Az API-kulcs mező egységes Windows-magassága és az általános beállítások mentése hiányos Odoo-profilok mellett.
+      <title>GARKO 0.1.8</title>
+      <description>A Naplók elérése a Beállítások oldalra került, valós darabszám- és méretkijelzéssel. A Naplók gomb az előző nézetet megőrző visszanavigálást használ; a naplólista kezelősávja és a Beállítások mezőmagasságai egységesebbek.
 
-Authenticode-waiver: A felhasználó kifejezetten Authenticode-aláírás nélküli v0.1.7 Windows-kiadást kért. A telepítő teljes Windows build-, installer-smoke- és production downgrade acceptance-ellenőrzésen átment; az Ed25519 appcast-aláírás és a SHA-256 ellenőrzés megmarad.</description>
-      <sparkle:version>0.1.7</sparkle:version>
-      <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+Authenticode-waiver: A felhasználó kifejezetten Authenticode-aláírás nélküli v0.1.8 Windows-kiadást kért. A telepítő teljes Windows build-, installer-smoke- és production downgrade acceptance-ellenőrzésen átment; az Ed25519 appcast-aláírás és a SHA-256 ellenőrzés megmarad.</description>
+      <sparkle:version>0.1.8</sparkle:version>
+      <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.1.7</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.1.7/GARKO-Setup-0.1.7.exe"
-                 length="30933932"
+      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.1.8</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.1.8/GARKO-Setup-0.1.8.exe"
+                 length="30935519"
                  type="application/octet-stream"
                  sparkle:os="windows-x64"
-                 sparkle:edSignature="OxlWXxfTDC6485efrLJtODtI1Wsh/04ppzPmNUAOEGJTZg2Biu+7XfAd7euVCEQwmOIpsZzdeggxS1TFkSyKDA=="
+                 sparkle:edSignature="fXAmc7SXDt0l26AdN4egC1si35KZGgbM5tjmBZpf7fa57DRyuU+AWbjU5yawFMAaUmmWpmgRChjpDfkRCbndBQ=="
                  sparkle:installerArguments="/SILENT /SP- /NORESTART" />
     </item>
   </channel>
