@@ -5,19 +5,25 @@
     <description>Aláírt GARKO Windows-kiadások</description>
     <language>hu</language>
     <item>
-      <title>GARKO 0.1.8</title>
-      <description>A Naplók elérése a Beállítások oldalra került, valós darabszám- és méretkijelzéssel. A Naplók gomb az előző nézetet megőrző visszanavigálást használ; a naplólista kezelősávja és a Beállítások mezőmagasságai egységesebbek.
+      <title>GARKO 0.1.9</title>
+      <description>Gyorsabb dokumentumfeldolgozás és kevesebb ismételt munka a Windows-felületen. A Beszerzés és GLS jelentéspanelei közös kódot használnak, a korábbi megjelenéssel. A kiadás tartalmazza az előző audit javításait és a módonkénti Odoo-írási korlátot is.
 
-Authenticode-waiver: A felhasználó kifejezetten Authenticode-aláírás nélküli v0.1.8 Windows-kiadást kért. A telepítő teljes Windows build-, installer-smoke- és production downgrade acceptance-ellenőrzésen átment; az Ed25519 appcast-aláírás és a SHA-256 ellenőrzés megmarad.</description>
-      <sparkle:version>0.1.8</sparkle:version>
-      <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+Ellenőrzés: 603 alkalmazásteszt normál és optimalizált Python-futásban, 76 GLS-teszt mindkét módban, 33 valódi bemeneti fájl vizsgálata. A natív Windows build külön ellenőrzi a megjelenést, a telepítést és a visszaállítást.
+
+Ismert nyitott probléma: a GLS S36836-1 hivatkozás pontos jelentése még tisztázatlan. Az érintett 20260713-as XLSX és 7661.pdf pár feldolgozását a program továbbra is blokkolja. A kiadási ellenőrzésben 9 GLS-pár sikeres, ez az egy pár külön ismert blokként szerepel.
+
+A Windows-telepítő a felhasználó kérésére Authenticode-aláírás nélkül készül.
+
+Authenticode-waiver: A felhasználó kifejezett kérése alapján a v0.1.9 telepítő Authenticode-aláírás nélkül kerül kiadásra.</description>
+      <sparkle:version>0.1.9</sparkle:version>
+      <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.1.8</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.1.8/GARKO-Setup-0.1.8.exe"
-                 length="30935519"
+      <sparkle:releaseNotesLink>https://github.com/arturberkovics-luvblanka/garko-releases/releases/tag/v0.1.9</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/arturberkovics-luvblanka/garko-releases/releases/download/v0.1.9/GARKO-Setup-0.1.9.exe"
+                 length="30742566"
                  type="application/octet-stream"
                  sparkle:os="windows-x64"
-                 sparkle:edSignature="fXAmc7SXDt0l26AdN4egC1si35KZGgbM5tjmBZpf7fa57DRyuU+AWbjU5yawFMAaUmmWpmgRChjpDfkRCbndBQ=="
+                 sparkle:edSignature="WUiv6oLczFGuWu8I3NjieP0t+jcrO3z6ozn9txZQqG4knM8FvmIdPR+9zqIdkwHszURoukR6sQfu3Q4X3R3KDw=="
                  sparkle:installerArguments="/SILENT /SP- /NORESTART" />
     </item>
   </channel>
